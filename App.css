@@ -1,0 +1,35 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  color: #333;
+}
+
+.section {
+  margin: 20px 0;
+}
+
+.section h2 {
+  margin-bottom: 10px;
+}
+
+input,
+button {
+  padding: 8px;
+  margin: 5px;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin: 10px 0;
+}

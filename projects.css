@@ -1,0 +1,58 @@
+.container {
+  padding: 20px;
+}
+
+.form-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  padding: 8px;
+  margin: 5px;
+  width: 150px;
+}
+
+.add-btn {
+  padding: 8px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+.entries-container {
+  display: flex;
+  flex-direction: column;
+  /* Stack entries vertically */
+  gap: 10px;
+}
+
+.entry {
+  display: flex;
+  justify-content: space-between;
+  /* Spread fields across the row */
+  align-items: center;
+  gap: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.entry p {
+  margin: 0;
+  flex: 1;
+  /* Each field takes up equal space */
+}
+
+.delete-btn {
+  padding: 5px 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: darkred;
+}
